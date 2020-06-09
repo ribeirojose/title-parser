@@ -2,7 +2,7 @@
 name = "khristian-title-parser"
 version = "0.1.0"
 description = "Parse titles for Khristian's article"
-authors = ["José Ribeiro <jose@ae.studio>"]
+authors = ["José Ribeiro <ribeirojose@me.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
