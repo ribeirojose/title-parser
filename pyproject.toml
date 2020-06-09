@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "khristian-title-parser"
+name = "title-parser"
 version = "0.1.0"
 description = "Parse titles for Khristian's article"
 authors = ["José Ribeiro <ribeirojose@me.com>"]
