@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 def read_data():
-    return pd.read_csv("data.csv", sep="\n")
+    return pd.read_csv("./data/data.csv", sep="\n")
 
 def parse_row(string):
     match_regex = r"([^.]*)\.(.*?)\,(\ .*?)\,( \d*)."
@@ -27,6 +27,3 @@ def process_data():
     print("Printing to failed.csv")
     dict_list_to_csv(failed, 'failed')
 
-
-if __name__ == '__main__':
-    process_data()

@@ -1,2 +1,4 @@
 .venv/
 title_parser.egg-info/
+successful.csv
+failed.csv
